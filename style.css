@@ -428,7 +428,7 @@ nav ul li a:hover{
   border: 2px solid rgb(153, 45, 255);
 }
 
-.button-contact {
+/* .button-contact {
   width: 100px;
   height: 30px;
   background: linear-gradient(280deg, rgb(79, 4, 255), rgb(126, 13, 255));
@@ -436,7 +436,7 @@ nav ul li a:hover{
   border: 2px solid rgba(199, 199, 199, 0.242);
   border-radius: 6px;
   cursor: pointer;
-}
+} */
 
 .contact-right-image {
   width: 11cm;
@@ -522,11 +522,6 @@ button {
  
  button:hover::before {
   height: 100%;
- }
- 
- button:hover .icon {
-  top: 0;
-  opacity: 1;
  }
  
  button:hover .icon {
