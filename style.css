@@ -475,7 +475,6 @@ nav ul li a:hover{
   justify-items: center;
 }
 
-
 button {
   position: relative;
   font-size: 14px;
@@ -523,6 +522,11 @@ button {
  
  button:hover::before {
   height: 100%;
+ }
+ 
+ button:hover .icon {
+  top: 0;
+  opacity: 1;
  }
  
  button:hover .icon {
